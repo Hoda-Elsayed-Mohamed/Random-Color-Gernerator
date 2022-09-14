@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+.container{
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.colored{
+    width: 250px;
+    height: 150px;
+    background: var(--lighty);
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+   
+}
